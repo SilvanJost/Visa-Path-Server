@@ -1,0 +1,27 @@
+{
+  "visas": [
+    {
+      "name": "F-1-D",
+      "requirements": {
+        "minIncome": {
+          "amount": 65800,
+          "currency": "USD"
+        },
+        "employedAtForeignCompany": true
+      },
+      "permissions": {
+        "unlimitedEntries": true,
+        "allowedToWorkInCountry": false,
+        "allowedToWorkRemotely": true
+      },
+      "stayDuration": {
+        "amount": 1,
+        "timeUnit": "YEAR"
+      },
+      "renewal": {
+        "canBeRenewed": true,
+        "maxRenewalCount": 1
+      }
+    }
+  ]
+}
